@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6faff;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1125px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.header .logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.navbar .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.navbar .nav-menu .nav-item {
+  font-size: 16px;
+  color: black;
+}
+
+.header .header-extra .btn {
+  outline: none;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Home */
+.home {
+  height: 100vh;
+  padding: 100px 126px;
+  text-align: center;
+}
+
+.home .title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.home .desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.397);
+  margin-bottom: 40px;
+}
+
+.home .home-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home .home-btn .btn {
+  padding: 12px 17px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #001aff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 15px 30px 0 #a8b1ff;
+}
+
+.home .home-btn .secondary-btn {
+  color: #001aff;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Featured */
+.featured {
+  padding-bottom: 96px;
+}
+
+.featured h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+
+.featured .features-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured .features-card .card.active {
+  width: 360px;
+  background-color: #001aff;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 30px 60px 0 #a8b1ff;
+}
+
+.featured .features-card .card {
+  width: 360px;
+  background-color: white;
+  color: black;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 30px 60px 0 #a8b1ff;
+}
+
+.featured .features-card .card .desc {
+  margin-bottom: 20px;
+}
+
+.featured .features-card .card .desc::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.459);
+  margin-top: 20px;
+}
+
+.featured .features-card .card .header-card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.featured .features-card .card .header-card .title h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.featured .features-card .card .header-card .title .white {
+  color: black;
+}
+
+.featured .features-card .card .header-card .title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.featured .features-card .card .cost-jobs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.featured .features-card .card .cost-jobs span {
+  padding: 5px 15px;
+  background-color: #ffffff77;
+  border-radius: 50px;
+}
+
+.featured .features-card .card .cost-jobs .white {
+  background-color: #00000038;
+}
