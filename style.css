@@ -59,7 +59,7 @@ a {
 
 /* Home */
 .home {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 100px 126px;
   text-align: center;
 }
@@ -199,9 +199,7 @@ a {
   }
 
   .home {
-    height: 70vh;
-    padding: 0;
-    padding-top: 40px;
+    padding: 40px 0;
     text-align: center;
   }
 
