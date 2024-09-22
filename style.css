@@ -187,3 +187,31 @@ a {
 .featured .features-card .card .cost-jobs .white {
   background-color: #00000038;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  .header .navbar,
+  .header .header-extra {
+    display: none;
+  }
+
+  .home {
+    height: 100vh;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .featured .features-card {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .featured .features-card .card,
+  .featured .features-card .card.active {
+    width: 100%;
+  }
+}
