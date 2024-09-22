@@ -199,9 +199,9 @@ a {
   }
 
   .home {
-    height: 80vh;
-    padding: 100px 0;
-    padding-top: 50px;
+    height: 70vh;
+    padding: 0;
+    padding-top: 40px;
     text-align: center;
   }
 
